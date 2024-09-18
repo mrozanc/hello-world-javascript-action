@@ -1,4 +1,11 @@
-on: [push]
+name: main
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   hello_world_job:
