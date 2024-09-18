@@ -3,8 +3,8 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+.idea/*
 !.idea/codeStyles/
-.idea/
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -82,7 +82,7 @@ bower_components
 build/Release
 
 # Dependency directories
-#node_modules/
+node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -132,7 +132,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+#dist
 
 # Gatsby files
 .cache/
