@@ -1,4 +1,6 @@
-on: [push]
+name: main
+
+on: [ push ]
 
 jobs:
   hello_world_job:
